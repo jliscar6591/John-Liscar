@@ -1,20 +1,280 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-        <link rel="stylesheet" href="assets/css/styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        <title>John Liscar</title>
-    </head>
-    <body>
-        
-    
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-    <script type="text/javascript" src="assets/js/scripts.js"></script>
-    </body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>John Liscar</title>
+</head>
+
+<body>
+    <!-- Nav -->
+    <nav>
+        <div class="nav-wrapper blue-grey darken-2">
+            <a href="#!" class="brand-logo">
+                <span class="logo grey-text text-lighten-2">John Liscar</span>
+            </a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li>
+                    <a href="#Services">Services</a>
+                </li>
+                <li>
+                    <a href="#About">About</a>
+                </li>
+                <li>
+                    <a href="#Work">Work</a>
+                </li>
+                <li>
+                    <a href="#Contact">Contact</a>
+                </li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li>
+                    <a href="#Services">Services</a>
+                </li>
+                <li>
+                    <a href="#About">About</a>
+                </li>
+                <li>
+                    <a href="#Work">Work</a>
+                </li>
+                <li>
+                    <a href="#Contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Hero -->
+    <div class="parallax-container valign-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col l8 s12 white-text">
+                    <h4 class="thin-text left-align valign">I'm John Liscar, a Full Stack Web Developer based in Atlanta, Georgia</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col l4">
+                    <a href="#" class=" waves-effect btn-large hoverable red accent-2">Check me out</a>
+                </div>
+            </div>
+        </div>
+        <div class="parallax">
+            <img src="assets\img\cup-of-coffee-laptop.jpeg">
+        </div>
+    </div>
+    <!-- Services -->
+    <a name="Services"></a>
+    <div class="container">
+        <div class="row">
+            <h2 class="section-header">Services</h2>
+        </div>
+        <div class="row">
+            <div class="col l6 m12 s12">
+                <div class="card medium light-blue accent-4 z-depth-2">
+                    <div class="card-content white-text">
+                        <h3 class="center-align">
+                            <i class="fa fa-desktop fa-3x" area-hidden="true"></i>
+                        </h3>
+                        <div class="divider"></div>
+                        <span class="card-title">Custom Web Design</span>
+                        <p>I design attractive, functional websites. I provide a total solution from design to deployment to
+                            best fit your business or personal needs.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Find out more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col l6 m12 s12">
+                <div class="card medium blue darken-4 z-depth-2">
+                    <div class="card-content white-text">
+                        <h3 class="center-align">
+                            <i class="fa fa-folder-o fa-3x" aria-hidden="true"></i>
+                        </h3>
+                        <div class="divider"></div>
+                        <span class="card-title">Custom Application Design</span>
+                        <p>I provide full consultation in order to architect and develop the appropriate full stack applications
+                            for your business requirements.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Find out more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Call to Action -->
+    <div class="parallax-container valign-wrapper">
+        <div class="container">
+            <div class="row center">
+                <div class="col l10 offset-l1 valign">
+                    <h2 class="center-align black-text cta"> Interested in working together?</h2>
+                    <a href="#" class=" center btn-large hoverable red accent-2">GET IN TOUCH</a>
+                </div>
+            </div>
+        </div>
+        <div class="parallax">
+            <img src="assets/img/nature-laptop-outside-macbook.jpg">
+        </div>
+    </div>
+
+    <!-- Work -->
+    <a name="Work"></a>
+    <div class="container">
+        <h2 class="section-header">Selected Works</h2>
+        <div class="row">
+            <div class="col l4 m8 offset-m2 s12">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/img/medical.jpeg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">MediScript
+                            <i class="material-icons right">more_vert</i>
+                        </span>
+                        <p>
+                            <a href="https://mediscript.herokuapp.com/">Live Site</a>
+                        </p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">MediScript
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p>This is a full stack patient management system for small clinics that allows patient records and
+                            appointments to be added and updated on mulitple devices throughout the clinic. The patient information
+                            is stored on a MySQl database hosted on Heroku.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col l4 m8 offset-m2 s12">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/img/popcorn.jpg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Outtakes
+                            <i class="material-icons right">more_vert</i>
+                        </span>
+                        <p>
+                            <a href=" https://jliscar6591.github.io/Outtakes/">Live Site</a>
+                        </p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Outtakes
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p>Outtakes is the ultimate for blooper lovers who love to laugh. Outtakes brings together all the best
+                            in bloopers, gag reels and fast facts for your favorite movies, tv shows, concerts, etc. all
+                            in one place utilizing YouTube and OMDB APIs.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col l4 m8 offset-m2 s12">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/img/friend.jpeg">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Friend Finder
+                            <i class="material-icons right">more_vert</i>
+                        </span>
+                        <p>
+                            <a href="https://friend-finder-jsl.herokuapp.com/">Live Site</a>
+                        </p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Friend Finder
+                            <i class="material-icons right">close</i>
+                        </span>
+                        <p>Friend Finder simulates a simple dating app that takes the user through a survey to find the most
+                            compatible match based on existing user records</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="divider"></div>
+    </div>
+
+    <!-- About -->
+    <a name="About"></a>
+    <div class="container">
+            <div class="row">
+                <h2 class="section-header">About</h2>
+            </div>
+            <div class="row">
+                <p class="flow-text">
+                    I guess I'm supposed to say things about myself here, so here we go. I was born and raised in Columbus, GA and grew up building
+                    things with legos and playing video games until the wee hours of the morning like most '90s kids. I have
+                    always had a passion for solving problems so I attended Auburn University where I earned my Bachelors
+                    in Applied Mathematics in 2014.
+                </p>
+                <p class="flow-text">
+                    While living and working in Atlanta. GA for the last two years I've developed a passion for technology and how powerful these
+                    types of tools can be for any business or industry. So I abruptly quit my IT staffing job and switch
+                    sides of the field and decided to pursure a career in web development which has led me to the wonderful
+                    group at GA Tech I'm learning and working with now.</p>
+            </div>
+        </div>
+
+    <!-- Contact -->
+    <a name="Contact"></a>
+    <div class="container">
+        <div class="row">
+            <h2 class="section-header">Contact</h2>
+        </div>
+    </div>
+    <div class="container blue darken-4 contact-form">
+        <div class="row">
+            <div class="col l8 offset-l2 m12 s12">
+                <div class="row">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input placeholder="First Name" id="first_name" type="text" class="validate">
+                                <label for="first_name">First Name</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <input placeholder="Last Name"id="last_name" type="text" class="validate">
+                                <label for="last_name">Last Name</label>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input placeholder="Email" id="email" type="email" class="validate">
+                                    <label for="email">Email</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input class="validate">
+                                    <label>Tell me a little about your project...</label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <script type="text/javascript" src="assets/js/scripts.js"></script>
+</body>
+
 </html>
