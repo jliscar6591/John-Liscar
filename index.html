@@ -242,26 +242,32 @@
         <div class="row">
             <div class="col l8 offset-l2 m12 s12">
                 <div class="row">
-                    <form class="col s12">
+                    <form id="contact-form" class="col s12" method="POST" action="https://formspree.io/john.liscar@gmail.com">
                         <div class="row">
                             <div class="input-field col s6">
-                                <input placeholder="First Name" id="first_name" type="text" class="validate">
+                                <input placeholder="First Name" id="first_name" name="first_name" type="text" class="validate">
                                 <label for="first_name">First Name</label>
                             </div>
                             <div class="input-field col s6">
-                                <input placeholder="Last Name" id="last_name" type="text" class="validate">
+                                <input placeholder="Last Name" id="last_name" name="last_name" type="text" class="validate">
                                 <label for="last_name">Last Name</label>
                             </div>
                             <div class="row">
                                 <div class="input-field col s12">
-                                    <input placeholder="Email" id="email" type="email" class="validate">
+                                    <input placeholder="Email" id="email" name="email" type="email" class="validate">
                                     <label for="email">Email</label>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="input-field col s12">
-                                    <input placeholder="Talk to me" id="text" type="text" class="validate">
+                                    <input placeholder="Talk to me" id="text" name="text" type="text" class="validate">
                                     <label for="text">Tell me a little about your project...</label>
+                                </div>
+                            </div>
+                                <div class="row">
+                                        <button class="waves-effect btn hoverable red accent-2 right-align" type="submit" name="mail">Submit
+                                                <i class="material-icons right">send</i>
+                                        </button>
                                 </div>
                             </div>
                         </div>
