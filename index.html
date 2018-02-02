@@ -6,10 +6,11 @@
     <meta name="viewport">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/styles.css">
+
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
@@ -23,44 +24,46 @@
 
 <body>
     <!-- Nav -->
-    <nav>
-        <div class="nav-wrapper blue-grey darken-2">
-            <a href="#!" class="brand-logo">
-                <span class="logo grey-text text-lighten-2">John Liscar</span>
-            </a>
-            <a href="#" data-activates="mobile-demo" class="button-collapse">
-                <i class="material-icons">menu</i>
-            </a>
-            <ul class="right hide-on-med-and-down">
-                <li>
-                    <a href="#Services">Services</a>
-                </li>
-                <li>
-                    <a href="#About">About</a>
-                </li>
-                <li>
-                    <a href="#Work">Work</a>
-                </li>
-                <li>
-                    <a href="#Contact">Contact</a>
-                </li>
-            </ul>
-            <ul class="side-nav" id="mobile-demo">
-                <li>
-                    <a href="#Services">Services</a>
-                </li>
-                <li>
-                    <a href="#About">About</a>
-                </li>
-                <li>
-                    <a href="#Work">Work</a>
-                </li>
-                <li>
-                    <a href="#Contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper blue-grey darken-2">
+                <a href="#!" class="brand-logo">
+                    <span class="logo grey-text text-lighten-2">John Liscar</span>
+                </a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <a href="#Services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#About">About</a>
+                    </li>
+                    <li>
+                        <a href="#Work">Work</a>
+                    </li>
+                    <li>
+                        <a href="#Contact">Contact</a>
+                    </li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li>
+                        <a href="#Services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#About">About</a>
+                    </li>
+                    <li>
+                        <a href="#Work">Work</a>
+                    </li>
+                    <li>
+                        <a href="#Contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
     <!-- Hero -->
     <div class="parallax-container valign-wrapper">
         <div class="container">
@@ -225,9 +228,9 @@
             </p>
             <p class="flow-text">
                 While living and working in Atlanta. GA for the last two years I've developed a passion for technology and how powerful these
-                types of tools can be for any business or industry. So I abruptly quit my IT staffing job and switched sides
-                of the field and decided to pursue a career in web development which has led me to the wonderful group at
-                GA Tech I'm learning and working with now.</p>
+                types of tools can be for any business or industry. So I abruptly quit my IT staffing job and switched sides of the field to 
+                pursue a career in web development. This led me to the wonderful group at GA Tech where I’m learning and developing full stack 
+                web applications.</p>
         </div>
     </div>
 
@@ -239,6 +242,9 @@
         </div>
     </div>
     <div class="container blue darken-4 contact-form">
+        <div class="row">
+            <h4 class="section-header center-align">Email me using this form or call me at 706.570.6063.</h4>
+        </div>
         <div class="row">
             <div class="col l8 offset-l2 m12 s12">
                 <div class="row">
@@ -264,17 +270,17 @@
                                     <label for="text">Tell me a little about your project...</label>
                                 </div>
                             </div>
-                                <div class="row">
-                                        <button class="waves-effect btn hoverable red accent-2 right-align" type="submit" name="mail">Submit
-                                                <i class="material-icons right">send</i>
-                                        </button>
-                                </div>
+                            <div class="row">
+                                <button class="waves-effect btn hoverable red accent-2 right-align" type="submit" name="mail">Submit
+                                    <i class="material-icons right">send</i>
+                                </button>
                             </div>
                         </div>
-                    </form>
                 </div>
+                </form>
             </div>
         </div>
+    </div>
     </div>
 
     <!-- Compiled and minified JavaScript -->
